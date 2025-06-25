@@ -174,7 +174,7 @@ export function SessionsList({ type }: SessionsListProps) {
               {session.status === 'scheduled' && (
                 <CardFooter className="px-0 pt-4">
                   <Button className="w-full sm:w-auto gap-2" asChild>
-                    <a href={session.meetingLink} target="_blank" rel="noopener noreferrer">
+                    <a href={"session.meetingLink"} target="_blank" rel="noopener noreferrer">
                       <Video className="h-4 w-4" />
                       Join Zoom Meeting
                       <ExternalLink className="h-3 w-3 ml-1" />

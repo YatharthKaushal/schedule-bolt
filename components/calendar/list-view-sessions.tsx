@@ -146,7 +146,7 @@ export function ListViewSessions({ currentMonth }: ListViewSessionsProps) {
                         
                         {session.status === 'scheduled' && session.meetingLink && (
                           <Button variant="outline" size="sm" className="gap-1 text-xs h-8" asChild>
-                            <a href={session.meetingLink} target="_blank" rel="noopener noreferrer">
+                            <a href={"session.meetingLink"} target="_blank" rel="noopener noreferrer">
                               <Video className="h-3 w-3" />
                               Join
                               <ExternalLink className="h-2 w-2 ml-1" />
