@@ -1,5 +1,5 @@
-import { HostsFilter } from '@/components/hosts/hosts-filter'
-import { HostsList } from '@/components/hosts/hosts-list'
+import { HostsFilter } from "@/components/hosts/hosts-filter";
+import { HostsList } from "@/components/hosts/hosts-list";
 
 export default function HostsPage() {
   return (
@@ -10,16 +10,16 @@ export default function HostsPage() {
           Browse and connect with our experienced hosts
         </p>
       </div>
-      
+
       <div className="flex flex-col md:flex-row gap-6">
         <aside className="w-full md:w-[260px] lg:w-[300px] shrink-0">
           <HostsFilter />
         </aside>
-        
+
         <main className="flex-1">
           <HostsList />
         </main>
       </div>
     </div>
-  )
+  );
 }
